@@ -67,6 +67,14 @@ nav {
     margin: -5%;
 }
 
+.navbar-logo {
+    position: absolute;
+    top: 10px;   /* adjust as needed */
+    left: 10px;  /* adjust as needed */
+    height: 40px; /* or your preferred size */
+    z-index: 1000; /* make sure it stays on top */
+  }
+
 nav a{
     font-size: 1rem;
     letter-spacing: 0.1rem;
