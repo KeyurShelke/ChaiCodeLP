@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"
+    <title>chaicode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <img class="image-gradient" src="images/gradient 2.png" alt="gradient">
@@ -13,17 +14,17 @@
     <div class="container">
         <header>
             <h1 class="logo"></h1>
-            <img src="images/chaicode-white.png" alt="Logo" class="navbar-logo" />
+            <img data-aos="fade-down" data-aos-duration="1500" src="images/chaicode-white.png" alt="Logo" class="navbar-logo" />
 
             <nav>
-                <a href="#">Cohorts</a>
-                <a href="#">Udemy</a>
-                <a href="#">Docs</a>
-                <a href="#">Reviews</a>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">Cohorts</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">Udemy</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="#">Docs</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="#">Reviews</a>
 
             </nav>
 
-            <button class="btn-signin">SIGN IN</button>
+            <button data-aos="fade-down" data-aos-duration="1500" class="btn-signin">SIGN IN</button>
 
 
         </header>
@@ -31,20 +32,32 @@
         <main>
 
         <div class="content">
-            <div class="tag-box">
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration="1500" class="tag-box">
                 <div class="tag">Trusted by 1.5M Learners </div>
             </div>
 
 
 
-            <h1>Consistency And Community <br>Learning For Coding Courses.
+            <h1 data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration="2000">Consistency And Community <br>Learning For Coding Courses.
             </h1>
 
-            <p class="description">
+            <p data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration="2500" class="description">
                 Content is every where,we provide a learning experience that is unmatched.Bounties, peer learning, code reviews, Vitrual hostel, Alumni Network, Doubt sessions, Group projects and so many other activities to keep you on track.
             </p>
 
-            <div class="buttons">
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" data-aos-duration="3000" class="buttons">
                 <a href="#" class="btn-get-started">Documentation &gt; </a>
                 <a href="#" class="btn-signing-main">Get Started &gt;</a>
             </div>
@@ -53,12 +66,18 @@
         </main>
 
 
-        <spline-viewer class="robot-3d" url="https://prod.spline.design/vX98TqBxwBgzfqFl/scene.splinecode"></spline-viewer>
+        <spline-viewer data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0" data-aos-duration="3000" class="robot-3d" url="https://prod.spline.design/vX98TqBxwBgzfqFl/scene.splinecode"></spline-viewer>
     </div>
 
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 
 </body>
